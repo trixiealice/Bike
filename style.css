@@ -133,32 +133,30 @@ main {
 }
 
 .stats-esquerdo div, .stats-direito div {
-    text-align: right; /* Default para alinhamento dentro dos itens */
+    text-align: right; 
 }
 .stats-direito div {
     text-align: left;
 }
 
-/* Cores da Coluna Esquerda (Títulos Cinza, Números Vermelhos) */
 .stats-esquerdo p {
-    color: var(--second-color); /* Cinza */
+    color: var(--second-color); 
     font-style: italic;
     margin-bottom: 5px;
 }
 .stats-esquerdo h1 {
-    color: var(--primary-color); /* Vermelho */
+    color: var(--primary-color); 
     font-size: 40px;
     font-weight: 700;
 }
 
-/* Cores da Coluna Direita (Títulos Vermelhos, Números Cinza) */
 .stats-direito p {
-    color: var(--primary-color); /* Vermelho */
+    color: var(--second-color); 
     font-style: italic;
     margin-bottom: 5px;
 }
 .stats-direito h1 {
-    color: var(--second-color); /* Cinza */
+    color: var(--quarta-color); 
     font-size: 40px;
     font-weight: 700;
 }
