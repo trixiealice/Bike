@@ -118,7 +118,6 @@ main {
 
 .stats-esquerdo {
     display: flex;
-    flex-direction: column;
     gap: 30px;
     align-items: flex-end;
     padding-right: 80px;
@@ -126,7 +125,6 @@ main {
 
 .stats-direito {
     display: flex;
-    flex-direction: column;
     gap: 30px;
     align-items: flex-start;
     padding: 80px;
